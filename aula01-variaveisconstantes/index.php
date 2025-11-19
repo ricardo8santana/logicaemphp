@@ -34,11 +34,26 @@
             $casado = false; //boolean
 
             echo "$sobrenome $idade $peso";
+               echo "<br> <br>";
             //Método 1: Usando var_dump para exibir o valor do booleano
             var_dump($casado);
+               echo "<br> <br>";
 
             //Método 2: Usando uma conversão para string
             echo ($casado ? "Casado" : "Não é casado");
+              echo "<br> <br>";
+              //tipos primitivos
+            var_dump($sobrenome);
+              echo "<br> <br>";
+            var_dump($idade);
+              echo "<br> <br>";
+            var_dump($peso);
+
+            $frase = "Meu time de futebol é " .time;
+            $frase2 = "Meu nome é  $nome meu sobrenome é $sobrenome";
+            echo($frase);
+            echo"<br>";
+            echo($frase2);
 
         ?>
     </h2>
