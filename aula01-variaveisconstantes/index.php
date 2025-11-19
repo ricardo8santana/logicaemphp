@@ -48,7 +48,7 @@
             var_dump($idade);
               echo "<br> <br>";
             var_dump($peso);
-
+            
             $frase = "Meu time de futebol é " .time;
             $frase2 = "Meu nome é  $nome meu sobrenome é $sobrenome";
             echo($frase);
