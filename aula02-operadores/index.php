@@ -12,8 +12,8 @@
         $a = 5;
         $b = 3;
         $soma = $a - $b;
-        $subtracao = 4 - 2;
-        $multiplicacao = 4 * 2;
+        $subtracao = 4 - 12;
+        $multiplicacao = 4 * 8;
         $potenciacao = 2 ** 2;
         echo "Resultado da soma é $soma <br>";
         echo "Resultado da subtracao é $subtracao <br>";
