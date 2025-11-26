@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐘 PHP</title>
+    <title>🐘Meu primeiro PHP</title>
 </head>
 <body>
     <h2>
         <?php 
             echo "Meu primeiro PHP\u{1F600}";
+
+               /*
+        Isso é um comentário    
+        com várias
+        linhas
+        */
+              //Quebra de linha antes do próximo echo
             echo "<br> <br>";
+
             //Váriaveis
             $nome = "Ricardo";
             $sobrenome = "Santana";
@@ -42,6 +50,7 @@
             //Método 2: Usando uma conversão para string
             echo ($casado ? "Casado" : "Não é casado");
               echo "<br> <br>";
+
               //tipos primitivos
             var_dump($sobrenome);
               echo "<br> <br>";
@@ -49,6 +58,7 @@
               echo "<br> <br>";
             var_dump($peso);
             
+             //constante e variável dentro de outra variável
             $frase = "Meu time de futebol é " .time;
             $frase2 = "Meu nome é  $nome meu sobrenome é $sobrenome";
             echo($frase);
