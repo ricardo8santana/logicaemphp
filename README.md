@@ -1,0 +1,14 @@
+Introdução à Lógica de Programação com PHP 8.2 no XAMPP
+Este documento apresenta uma visão clara e objetiva da aplicação de conceitos fundamentais de lógica de programação utilizando PHP 8.2 executado no ambiente XAMPP. O objetivo é fornecer uma abordagem introdutória, porém sólida, que permita ao usuário compreender como construir estruturas básicas em PHP, manipulando variáveis, operadores, condicionais, vetores, loops e funções dentro de um cenário prático de desenvolvimento local.
+
+Para iniciar, é necessário que o XAMPP esteja instalado, preferencialmente na versão compatível com o PHP 8.2, garantindo assim acesso ao servidor Apache e ao módulo PHP. Com o ambiente configurado, basta salvar seus arquivos .php dentro da pasta htdocs, que funciona como diretório raiz das aplicações. A partir desse ponto, qualquer lógica poderá ser executada pelo navegador acessando http://localhost/nomedoarquivo.php.
+
+No PHP, variáveis são fundamentais para armazenar e manipular informações durante a execução do programa. Elas são declaradas com o símbolo $ seguido de um nome representativo e podem receber valores numéricos, textuais, booleanos ou estruturados. A manipulação dessas variáveis frequentemente envolve o uso de operadores, sejam eles aritméticos, lógicos ou relacionais, que permitem realizar cálculos, comparar valores e construir expressões mais complexas.
+
+Para controlar o fluxo de execução, utilizamos estruturas condicionais, como if, else e elseif, permitindo que o programa tome decisões baseadas nas condições estabelecidas. Em conjunto com essas decisões, os vetores (arrays) oferecem a capacidade de armazenar múltiplos valores em uma única variável, seja através de índices numéricos ou chaves associativas, facilitando o tratamento de conjuntos de dados.
+
+Quando há necessidade de repetir instruções de forma controlada, entram em cena os loops, como for, while e foreach, que percorrem sequências numéricas ou listas de elementos presentes em arrays. Essas estruturas evitam repetições desnecessárias de código e tornam o programa mais eficiente e organizado.
+
+Finalmente, para criar blocos reutilizáveis e bem estruturados, são utilizadas as funções, que agrupam um conjunto de comandos executados sob demanda. Uma função pode receber parâmetros, processar informações e retornar resultados, contribuindo para a modularidade e clareza do código.
+
+Com a união desses elementos — variáveis, operadores, condicionais, vetores, loops e funções — é possível construir aplicações dinâmicas e performáticas em PHP, utilizando o XAMPP como ambiente de execução e testes. O domínio dessas bases fortalece o entendimento geral de programação e prepara o desenvolvedor para avançar em áreas mais complexas do ecossistema PHP, como desenvolvimento web estruturado, orientação a objetos e frameworks modernos.
