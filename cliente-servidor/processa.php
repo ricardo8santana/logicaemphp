@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Recebidos</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Dados Recebidos</h2>
+ 
+    <?php 
+    //Recebendo e filtrando dados
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $telefone = filter_input(INPUT_POST, 'telefone',  FILTER_SANITIZE_SPECIAL_CHARS); 
+    $mensagem = filter_input(INPUT_POST, 'mensagem',  FILTER_SANITIZE_SPECIAL_CHARS); 
+    ?>
+
+    <div class="item">
+        <span>Nome:</span> <?=  $nome ?>
+    </div>
+
+      <div class="item">
+        <span>Email:</span> <?= $email ?>
+    </div>
+    
+</div>
+</body>
+</html>
