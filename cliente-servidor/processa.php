@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados Recebidos</title>
+    <style>
+    body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: #e8e8e8;
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 450px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+        }
+        </style>
 </head>
 <body>
     <div class="container">
@@ -34,7 +50,7 @@
     </div>
     
     <a href="index.html">Voltar</a>
-    
+
 </div>
 </body>
 </html>
