@@ -19,6 +19,29 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
         }
+        h2{
+            text-align: center;
+            color: #444;
+        }
+        .item{
+            margin-bottom: 15px;
+        }
+        .item span{
+            font-weight: bold;
+        }
+        a{
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            padding: 12px;
+            background: #0066cc;
+            color: #fff;
+            border-radius: 5px;
+        }
+        a:hover{
+            background: #004c99;
+        }
+
         </style>
 </head>
 <body>
