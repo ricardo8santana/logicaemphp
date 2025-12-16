@@ -24,6 +24,16 @@
       <div class="item">
         <span>Email:</span> <?= $email ?>
     </div>
+
+    <div class="item">
+        <span>Telefone:</span> <?= $telefone ?>
+    </div>
+
+    <div class="item">
+        <span>Mensagem:</span> <?= nl2br($mensagem) ?>
+    </div>
+    
+    <a href="index.html">Voltar</a>
     
 </div>
 </body>
